@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, ul, p{
+    margin: 0;
+    padding: 0;
+}
+
+/* Top Header Section Start */
+.top_header{
+
+padding: 15px 0;
+}
+
+.top_header ul{
+    
+list-style: none;
+    
+display: flex;
+    
+justify-content: end;
+}
+
+.top_header ul li{
+    
+margin-left: 30px;
+}
+
+.header_info{
+
+display: flex;
+
+align-items: center;
+}
+
+.header_icon{
+
+font-size: 22px;
+
+color: #f69165;
+
+margin-right: 7px;
+}
+
+.header_content h5{
+
+font-size: 14px;
+
+font-weight: 700;
+}
+
+.header_content p{
+
+font-size: 14px;
+}
+/* Top Header Section End */
+
+/* Header Section Start */
+header{
+
+background: #00cce1;
+}
+
+.appoinment_btn{
+
+color: #fff;
+
+background: #f69165;
+
+padding: 12px 30px;
+
+transform: skewX(340deg);
+}
+
+.appoinment_btn a{
+
+color: #fff;
+
+text-decoration: none;
+
+transform: skewX(18deg);
+
+display: inline-block;
+
+font-weight: 500;
+}
+
+.nav-link{
+    color: #fff;
+    position: relative;
+    z-index: 0;
+    padding: 12px 0;
+}
+
+
+.nav-link::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    background-color: #f69165;
+    transition: .4s all ease-in-out;
+}
+
+.nav-link:hover::before{
+    height: 100%;   
+    z-index: -1;
+    color: #00cce1;
+}
+
+.navbar{
+    padding: 0;
+}
+
+.appoinment_btn i{
+
+transform: skewX(18deg);
+}
+
+/* Header Section End */
+
+/* Banner Section Start  */
+    .banner{
+        background-image: url(../images/bg.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+    }
+    .banner h2{
+
+background: #00cce1;
+
+color: #fff;
+
+margin-bottom: 10px;
+
+text-transform: uppercase;
+
+padding: 3px 10px;
+
+display: inline-block;
+
+font-size: 28px;
+
+font-weight: 700;
+
+}
+    .banner h1{
+
+background: #f69165;
+
+color: #fff;
+
+text-transform: uppercase;
+
+padding: 3px 10px;
+
+display: inline-block;
+
+font-weight: 700;
+
+}
+    .banner p{
+
+margin-top: 15px;
+
+}
+    .banner_img{
+position: absolute;
+bottom: 0;
+
+    }
+
+    .btn_learn_more{
+
+background: #f69165;
+
+color: #fff;
+
+border-radius: 0;
+
+text-transform: uppercase;
+
+font-size: 14px;
+
+font-weight: 500;
+
+margin-top: 20px;
+
+transition: .5s all ease-in-out;
+}
+
+.btn_learn_more:hover{
+    background: transparent;
+    border: 1px solid #f69165;
+    color: #f69165;
+
+}
+    .btn_book_now{
+
+background: #00cce1;
+
+color: #fff;
+
+border-radius: 0;
+
+text-transform: uppercase;
+
+font-size: 14px;
+
+font-weight: 500;
+
+margin-top: 20px;
+transition: .5s all ease-in-out;
+
+}
+
+.btn_book_now:hover{
+    background: transparent;
+    border: 1px solid #00cce1;
+    color: #00cce1;
+}
+
+.height{
+        min-height: 82vh;
+        align-items: center;
+        position:relative; 
+    }
+   
+/* Banner Section End  */
+
+/* Agency Section Start */
+.agency_section{
+}
+.agency_section h3{
+    
+font-weight: 700;
+    
+text-transform: capitalize;
+    
+font-size: 25px;
+}
+.agency_section p{
+    
+font-size: 14px;
+    
+margin-top: 10px;
+    
+color: #939393;
+}
+.a_height{
+   
+    position: relative;
+}
+.r_height{
+
+padding: 70px 0px;
+}
+.agency_img{
+
+    position: absolute;
+    bottom: 0;
+}
+.agency_img img{
+   
+    
+   
+}
+.tooth{
+
+}
+.tooth_child{
+
+}
+.tooth_child img{
+    width: 35px;
+}
+.tooth_child h6{
+    
+font-size: 20px;
+    
+font-weight: 700;
+    
+margin: 10px 0;
+} 
+.tooth_child p{
+    
+color: #939393;
+    
+font-size: 13px;
+}
+/* Agency Section End */
+
+/* Doctor Section Start */
+.our_doctor{
+
+background: #f9f9f9;
+
+padding: 70px 0px;
+}
+.our_doctor h3{
+
+font-weight: 700;
+
+margin-bottom: 10px;
+}
+.our_doctor p{
+
+font-size: 14px;
+
+color: #939393;
+
+margin-top: 10px;
+}
+.doctor{
+
+text-align: center;
+
+border-bottom: 5px solid #00cce1;
+}
+.doctor:hover{
+    border-color: #f69165;
+}
+.doctor h6{
+    
+margin-top: 20px;
+    
+font-weight: 700;
+}
+.doctor p{
+    
+margin-bottom: 20px;
+}
+.doctor_img{
+    position: relative;
+
+
+}
+.doctor_img::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 100%;  
+    transition: 0.5s all ease-in-out;
+  
+   
+
+}
+.doctor_img:hover::before{
+    height: 100%;
+    background-color: #454545;
+    opacity: 0.7;
+   
+}
+.hover_icon{
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    opacity: 0;
+   
+   
+   
+}
+.doctor_img:hover .hover_icon{
+    opacity: 1;
+    transition: 0.5s all ease-in-out;
+   
+   
+   
+
+}
+.i{
+
+width: 40px;
+
+height: 40px;
+
+text-align: center;
+
+font-size: 25px;
+
+
+border: 2px solid white;
+
+margin: 0px 3px;
+}
+.i:hover{
+background-color: #f69165;
+color: #fff;
+border-color: #f69165;
+transition: 0.1s all ease-in-out;
+
+
+}
+.i a{
+    color: white;
+}
+.doctor_img img{
+    
+}
+
+/* Doctor Section End */
